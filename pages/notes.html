@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Notes DWWM</title>
+    <link rel="stylesheet" href="/css/style02.css" />
+  </head>
+  <body>
+    <header>
+      <h1><a href="/index.html">DWWM</a></h1>
+      <p>Brignoles (avril 2025 - janvier 2026)</p>
+    </header>
+
+    <main>
+      <section>
+        <br />
+        <hr />
+        <br />
+        <h2>📓 Journal de bord</h2>
+        <br />
+        <hr />
+        <br />
+
+        <article>
+          <h3>Jour 5 - 18/04/2025</h3>
+          <p>
+            Git / GitHub / Intégration<br />
+            Dossier Professionnel :<br />
+            - À remettre à un jury<br />
+            - Basé sur le REAC<br />
+            - Anticiper que c'est un gros dossier<br />
+            - CP1 : Installer et configurer son environnement de travail en
+            fonction du projet web ou web mobile<br />
+            - Il y a 8 CP en tout<br />
+            - Dossier professionnel ≠ Projet professionnel<br />
+            - Dossier de projet (se base sur le projet professionnel)<br />
+            - Le DP se base sur les cours et les évaluations<br />
+            - Astuce DP : renseigner avec des captures d'écran
+          </p>
+        </article>
+        <br />
+        <hr />
+        <br />
+        <article>
+          <h3>Jour 4 - 17/04/2025</h3>
+          <p>
+            Figma : 15/16/17/7 ==> 23/24/7 = Évaluation<br />
+            E-mail référent : administration@laplateforme.io<br />
+            Dossier ECF (Évaluation en cours de formation)<br /><br />
+            Git :<br />
+            - Outil de gestion de version<br />
+            - Logiciel de versioning<br />
+            - Permet de corriger une erreur<br />
+            - Permet de retrouver une version précédente<br />
+            - Dépôt = copie de tous les fichiers et modifs d'un projet<br /><br />
+            GitHub :<br />
+            - Service de gestion de version en ligne<br />
+            - Immense bibliothèque en ligne<br />
+            - Plus grand service d'hébergement de dépôts Git au monde<br />
+            - Dépôts publics<br /><br />
+            Configuration :<br />
+            - git config --global user.name "Votre nom"<br />
+            - git config --global user.email "votre.email@example.com"<br />
+            - Vérifier la config : git config --list<br /><br />
+            Dépôt Git = dossier "surveillé" par Git<br /><br />
+            Initialiser un dépôt :<br />
+            - cd chemin/vers/votre/projet<br />
+            - git init (crée un dossier caché .git)<br /><br />
+            État des fichiers :<br />
+            - git status : untracked, staged, committed<br /><br />
+            Commit = snapshot des modifs + message<br />
+            - git commit -m "Message descriptif"<br /><br />
+            - git log : voir l'historique<br />
+            - git add * : ajouter tous les fichiers<br /><br />
+            Git local / GitHub distant<br /><br />
+            Avantages : sauvegarde, collaboration, visibilité (portfolio)<br />
+            Interface : Dashboard, Repositories, Profile<br /><br />
+            Création d'un dépôt :<br />
+            - "New Repository" sur GitHub<br />
+            - Infos : nom, description, public/privé, README, .gitignore,
+            licence<br />
+            - Projet existant : créer dépôt vide (sans README, etc.)<br /><br />
+            Remote :<br />
+            - Lien vers un dépôt distant (convention : origin)<br />
+            - git remote add origin &lt;URL&gt;<br />
+            - git remote -v : vérifier les remotes<br /><br />
+            Push :<br />
+            - git push -u origin main (u = upstream)<br />
+            Pull :<br />
+            - git pull origin main<br /><br />
+            Cloner un projet :<br />
+            - git clone &lt;URL&gt;<br />
+            - Récupère projet + historique + configure remote<br /><br />
+            Workflow quotidien :<br />
+            - Modifier fichiers<br />
+            - git status<br />
+            - git add .<br />
+            - git commit -m "Message"<br />
+            - git push<br /><br />
+            Branches :<br />
+            - git branch / git checkout / git switch<br />
+            - git checkout -b nouvelle-branche<br /><br />
+            Merge :<br />
+            - git checkout main<br />
+            - git pull origin main<br />
+            - git merge nom-branche<br /><br />
+            Pull Request :<br />
+            - git checkout -b feature<br />
+            - git push origin feature<br />
+            - Sur GitHub : "Compare & pull request", remplir titre +
+            description<br />
+            - Discussion, review, fusion<br /><br />
+            Conflits de fusion :<br />
+            - Signaux dans terminal + fichiers modifiés avec marqueurs<br />
+            - Modifier, supprimer marqueurs, git add fichier, git commit<br /><br />
+            Aller plus loin :<br />
+            - Issues / Projects / README.md / .gitignore / Forking / GitHub
+            Pages / GitHub Actions<br /><br />
+            Bonnes pratiques :<br />
+            - commits atomiques, messages clairs, branches pour tout<br />
+            - pull/push fréquent<br />
+            - .gitignore : ne pas commiter node_modules, logs, etc.<br />
+            - communication via PR et Issues<br />
+            - relecture de code via PR<br /><br />
+            Bon message de commit :<br />
+            - Titre court (<50 caractères), impératif présent<br />
+            - Corps optionnel : pourquoi + comment<br />
+            - Exemple : "fix: corrige le bug de connexion..."<br /><br />
+            En contexte pro ou open source : commits en anglais
+          </p>
+        </article>
+
+        <br />
+        <hr />
+        <br />
+
+        <article>
+          <h3>Jour 3 - 16/04/2025</h3>
+          <p>
+            - pseudo-éléments<br />
+            - grid<br />
+            - flex<br /><br />
+            desktop first => max-width<br />
+            mobile first => min-width<br /><br />
+            @media screen and (max-width: 1024px) {<br />
+            xxxxx<br />
+            }<br />
+          </p>
+        </article>
+
+        <br />
+        <hr />
+        <br />
+
+        <article>
+          <h3>Jour 2 - 15/04/2025</h3>
+          <p>
+            Off Avril : 21<br />
+            Off Mai : 1 - 8 - 29<br />
+            Off Juin : 9<br />
+            Fermeture Août : 10 au 17<br />
+            Off Novembre : 11<br /><br />
+            25/11 (mardi) => 23/01 (stage)<br />
+            22/12 => 28/12 (Noël)<br />
+          </p>
+        </article>
+
+        <br />
+        <hr />
+        <br />
+
+        <article>
+          <h3>Jour 1 - 14/04/2025</h3>
+          <p>
+            • Formateurs : Vincent & Jean-Louis<br />
+            • Évaluations régulières à prévoir<br />
+            • Dossier professionnel pour présentation jury<br /><br />
+
+            Atouts VSCode :<br />
+            - Debugging intégré (front + back)<br />
+            - Git intégré<br />
+            - Intellisense (HTML, CSS, JS, TS, etc.)<br />
+            - Dev mobile web + hybride / Expo / Flutter / React Native /
+            Ionic<br />
+            - Cross-platform : Windows, macOS, Linux<br />
+            - Synchronisation via GitHub ou Microsoft (paramètres partout)<br />
+            - Grande communauté (StackOverflow, GitHub, templates, snippets)<br /><br />
+            Extensions à installer :<br />
+            • Auto Rename Tag : renomme automatiquement les balises HTML/XML
+            associées quand on modifie l'une d'elles. Réduit les erreurs.<br />
+            • Console Ninja : affiche les messages console.log directement dans
+            l'éditeur. Supporte JS/TS, Node. Affiche logs, warns, errors. Gain
+            de temps, compréhension directe des logs.<br />
+            • Error Lens : met en évidence erreurs et avertissements dans le
+            code. Surlignage coloré. Affichage inline des messages. Parfait avec
+            ESLint, TS, stylelint. Permet de rester concentré sans changer
+            d'onglet.<br />
+            • ESLint : analyse statique du code pour détecter erreurs de
+            syntaxe, appliquer les règles de style. Surveille en temps réel.
+            Peut corriger automatiquement certains problèmes. Support JS, TS,
+            JSX, Vue, etc. Indispensable en projet front complexe.<br />
+            • JS Refactoring Assistant (P42) : propose des refactorings
+            automatiques pour JS/TS. Simplifie conditions, remplace var par
+            let/const, utilise optional chaining, etc. Aide à moderniser,
+            lisibiliser et sécuriser le code.<br />
+            • Live Server : lance un serveur local pour voir les modifs
+            HTML/CSS/JS en temps réel (live reload). Compatible avec frameworks
+            modernes. Gain de temps pour maquettage interactif.<br />
+            • Live Share : collaboration en temps réel dans VSCode. Partage de
+            l’espace de travail (fichiers, terminaux, ports). Possibilité
+            d’éditer ensemble. Idéal pour pair programming, mentoring à
+            distance. Fonctionne via GitHub ou Microsoft. Permet travail
+            synchrone ou asynchrone. Supporte les sessions vocales/texte.<br />
+            • Path Intellisense : autocomplétion intelligente des chemins de
+            fichiers. Gère les alias. Évite les erreurs (typos, extensions
+            manquantes). Parfait pour projets React, Vue, Svelte, etc.<br />
+            • Thunder Client : test d'API REST directement dans VSCode. Envoi de
+            requêtes HTTP avec headers, JSON, form-data, etc. Affiche réponse,
+            statut, temps, taille. Supporte authentification, environnements,
+            tests automatiques. Léger et rapide (comparé à Postman). Idéal pour
+            tester le backend ou APIs tierces.<br />
+            • Template String Converter : convertit les chaînes classiques en
+            template strings JS (backticks). Ex : 'Bonjour ' + name => `Bonjour
+            ${name}`. Gain de lisibilité. Pratique pour logs, messages d’erreur
+            dynamiques, templating HTML.
+          </p>
+          <p>
+            Dossier professionnel pour présentation jury :<br />
+            - Présenter les extensions utilisées<br /><br />
+            Atouts VSCode :<br />
+            - Debugging intégré (front + back)<br />
+            - Git intégré<br />
+            - Intellisense (HTML, CSS, JS, TS, etc.)<br />
+            - Dev mobile web + hybride / Expo / Flutter / React Native /
+            Ionic<br />
+            - Cross-platform : Windows, macOS, Linux<br />
+            - Sync via compte GitHub ou Microsoft<br />
+            - Grande communauté<br /><br />
+            Extensions VSCode :<br />
+            • ESLint<br />
+            • Prettier<br />
+            • Live Server<br />
+            • Tailwind CSS IntelliSense<br />
+            • React Snippets, etc.<br /><br />
+            Serveur local : XAMPP, WAMP, MAMP<br />
+            - Pour tester en local avant mise en ligne<br />
+            - Apache + MySQL + PHP + phpMyAdmin<br />
+            - Exemples :<br />
+            -- XAMPP : http://localhost/dashboard/<br />
+            -- WAMP : http://localhost/<br />
+            -- MAMP : http://localhost:8888/<br /><br />
+            Emplacement fichiers :<br />
+            - XAMPP/WAMP : http://localhost/mon_site/<br />
+            - MAMP : http://localhost:8888/mon_site/<br /><br />
+            Node.js :<br />
+            - https://nodejs.org<br />
+            - Installer version LTS<br />
+            - Vérifier installation : node -v / npm -v<br /><br />
+            Balises structurantes : header, main, footer, section<br />
+            • Logo = cliquable vers accueil<br />
+            • nav = menu navigation<br />
+            • liste de liens dans nav<br /><br />
+            Balises à connaître par cœur : Header, Nav, Main, Section, Aside,
+            Footer, Article<br />
+            Éléments : h1-h6, a, p, ul, ol, li, img
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer>&copy; 2025 Philippe</footer>
+  </body>
+</html>
